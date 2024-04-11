@@ -19,8 +19,9 @@ requirements:
     - python >=3.6
     - pip
   run:
-    - python >=3.6
+    - python >=3.7
     - aiohttp <4
+    - msgpack >=1,<2
 
 test:
   imports:
