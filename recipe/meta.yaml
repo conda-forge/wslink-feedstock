@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.7
     - aiohttp <4
-    - msgpack >=1,<2
+    - msgpack-python >=1,<2
 
 test:
   imports:
