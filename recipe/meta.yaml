@@ -1,5 +1,5 @@
 {% set name = "wslink" %}
-{% set version = "2.0.4" %}
+{% set version = "2.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wslink-{{ version }}.tar.gz
-  sha256: 0b8106bbcebc1255fd955b9a476c7a04968abe704837acc835ae66db6a54c9a1
+  sha256: 2e23794eaf2686c91f01a2d798abb697609b3754a34442f1b721eb8ae3781eaf
 
 build:
   noarch: python
